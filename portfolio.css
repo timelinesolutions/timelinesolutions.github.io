@@ -1,0 +1,42 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-image: linear-gradient(45deg, black, grey);
+  height: 100%;
+}
+
+#slide {
+  width: 50%;
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 0 0 8px #000;
+  position: relative;
+}
+
+#slide img {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 0;
+}
+
+.pLinks {
+  color: #ffffff;
+  font: 20px sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+
+#rodape_site {
+  width: 90%;
+  height: 80px;
+  background: #696969;
+  clear: both;
+  border-radius: 2px;
+  text-align: center;
+}
