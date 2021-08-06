@@ -1,41 +1,16 @@
-$(function(){
-    $('#slide img:eq(0)').addClass("atual").show();
-    setInterval(slide, 4000);
-    
-    function slide(){
-        if($('.atual').next().size()){
-            $('.atual').fadeOut().removeClass("atual").next().fadeIn().addClass("atual");
-        }else{
-            $('.atual').fadeOut().removeClass("atual");
-            $('#slide img:eq(0)').fadeIn().addClass("atual");
-        }
-    }
-});
-
-function proximo(){
-    if($('.atual').next().size()){
-            $('.atual').fadeOut().removeClass("atual")
-                    .next().fadeIn().addClass("atual");
-    }else{
-            $('.atual').fadeOut().removeClass("atual");
-            $('#slide img:eq(0)').fadeIn().addClass("atual");
-         }
-}
-
-function anterior(){
-    if($('.atual').prev().size()){
-            $('.atual').fadeOut().removeClass("atual")
-                    .prev().fadeIn().addClass("atual");
-    }else{
-            $('.atual').fadeOut().removeClass("atual");
-            $('#slide img:eq(2)').fadeIn().addClass("atual");
-         }
-}
-
 var nome = document.getElementById("nome");
 var email = document.getElementById("email");
 var celular = document.getElementById("celular");
 var mensagem = document.getElementById("mensagem");
+var cont = 1;
+
+setInterval(()=>{
+	document.getElementById('radio' + cont).checked = true;
+	cont++;
+	if(cont > 3){
+		cont = 1;
+	}
+}, 4000);
 
 function validacao(){
 	if(nome.value === ""){
