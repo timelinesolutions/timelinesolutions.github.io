@@ -3,32 +3,15 @@ var email = document.getElementById("email");
 var celular = document.getElementById("celular");
 var mensagem = document.getElementById("mensagem");
 var cont = 1;
-let index = 0;
 
-let slides = document.querySelector('.slide-items').children;
-let total = slides.length;
-
-setInterval(next, 3000);
-
-function next(){
-	index++;
-	if(index == total){
-		index = 0;
-	}
-	for(i = 0; i < slides.length; i++ ){
-		slides[i].classList.remove('ativo');
-	}
-	slides[index].classList.add('ativo'); 
-}
-
-
-setInterval(()=>{
+setInterval(function prox(){
 	document.getElementById('radio' + cont).checked = true;
 	cont++;
 	if(cont > 3){
 		cont = 1;
 	}
 }, 4000);
+
 
 function validacao(){
 	if(nome.value === ""){
