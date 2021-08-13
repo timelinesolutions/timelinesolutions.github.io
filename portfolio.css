@@ -103,3 +103,29 @@ body{
 #radio3:checked ~ .navegacao-automatica .auto-btn3{
   background: #40D3DC;
 }
+
+#link{
+
+  display: flex;
+
+  margin: 0;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+#link a{
+
+  text-decoration: none;
+
+  font-size: 22px;
+
+  background-color: rgb(134, 131, 131);
+
+  border-radius: 4px;
+
+  color: white;
+
+}
