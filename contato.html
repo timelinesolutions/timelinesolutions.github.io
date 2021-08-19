@@ -7,37 +7,54 @@
     <link rel="stylesheet" type="text/css" href="contato.css"/>
   </head>
   <body>
-    <header>
+    
+          <h1 id="titulo">Página de Contatos</h1>
+          <p id="subtitulo">Envie sua mensagem, iremos responder o mais breve possivel.</p>
 
-    </header>
-    <section>
-      <h1>Contato</h1>
-      <br /><br />
+
         <form action="https://formspree.io/f/mbjqlvgd" method="post" enctype="multipart/form-data" onsubmit="return validacao();">
-          <fieldset>
-            <legend>Um pouco sobre você</legend>
+          
+          <fieldset class="grupo">
 
-            <label for="nome">* Nome:</label><br />
-            <input id="nome" type="text" name="nome" onblur="normalizarCor()"/><br />
+            
+            <div class="campo">
+              <label for="nome"><strong>*Nome:</strong></label>
+              <input type="text" name="nome" id="nome" onblur="normalizarCor()"/>
+            </div>
+            
+            <div class="campo">
+              <label for="email"><strong>* Email:</strong></label>
+              <input  type="text" name="email" id="email" onblur="normalizarCor()"/>
+            </div>
+            
+            <div class="campo">
+              <label for="cidade"><strong>Cidade:</strong></label>
+            <input  type="text" name="cidade" id="cidade">
+            </div>
 
-            <label for="email">* Email:</label><br />
-            <input id="email" type="text" name="email" onblur="normalizarCor()"/><br />
+            <div class="campo">
+              <label><strong>O que achou do nosso conteudo?</strong></label>
+              <label>
+                  <input type="radio" name="opniao" value="muito bom" checked>Muito bom
+              </label>
+              <label>
+                  <input type="radio" name="opniao" value="bom">Bom
+              </label>
+              <label>
+                  <input type="radio" name="opniao" value="previsa melhorar">Precisa melhorar
+              </label>
+          </div>
 
-          <label for="cidade">Cidade:</label><br />
-          <input id="cidade" type="text" name="cidade" /><br />
-
-          <label for="mensagem">Mensagem:</label><br />
-          <textarea name="mensagem" rows="3"></textarea>
-          <br />
+            <div class="campo">
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" rows="6" style="width: 26em"  id="experiencia"></textarea>
+          </div>
+          
         </fieldset>
-        <input type="submit" value="Enviar" />
+        <button class="botao" type="submit" onsubmit="">Enviar</button>
       </form>
-    </section>
-    <br /><br /><br /><br /><br />
-
-    <footer id="rodape_site">
-      <h2>Site meramente acadêmico</h2>
-    </footer>
   </body>
+
+  
   <script src="projeto.js"></script>
 </html>
