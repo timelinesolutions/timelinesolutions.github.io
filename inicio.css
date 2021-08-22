@@ -8,7 +8,7 @@ body{
 }
 
 .slider{
-    max-width: 700px;
+    max-width: 790px;
     border:10px solid darkslategray;
     margin: 100px auto;
     overflow: hidden;
@@ -126,7 +126,7 @@ color:whitesmoke;
 text-decoration: none;
 text-transform: uppercase;
 letter-spacing: 4px;
-font-size: 40px;
+font-size: 35px;
 
 }
 #toggle:checked + .checkbox .traco:nth-child(1){
@@ -158,9 +158,6 @@ opacity: 1;
     
 }
 
-
- 
-
   *, *:before, *:after {
     box-sizing: border-box;
     }
@@ -184,7 +181,7 @@ opacity: 1;
     
     h2 {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     }
     
     .footer ul {
