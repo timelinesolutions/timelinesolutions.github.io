@@ -1,7 +1,7 @@
 # Olá! Bem vindo! Aqui está um pouco mais sobre a nossa empresa  :memo:
 
 ## Sobre o projeto
-![](https://img.shields.io/badge/%20commits%20-9-green) ![](https://img.shields.io/badge/%20contributors%20-2-yellowgreen) ![](https://img.shields.io/badge/version%20-9-yellow)
+![](https://img.shields.io/badge/%20commits%20-17-green) ![](https://img.shields.io/badge/%20contributors%20-2-yellowgreen) ![](https://img.shields.io/badge/version%20-16-yellow)
 
 Site construído para fins acadêmicos, pondo em prática todos os valiosos conceitos colaborativos abordados na disciplina de Gerencia de Configuração e Mudanças sob a supervisão do professor  :point_right: Francisco Paulo de Freitas Neto :point_left: Nosso agradecimento por todo conhecimento transmitido e atenção dedicada. :smiley:
 
