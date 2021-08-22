@@ -14,9 +14,6 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    background-position: right ;
-    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,20 +23,15 @@ body{
     margin: -17px ;
     position: relative;
     
-
-    
 }
 
 #img-developer{
     position: relative;
- 
-}
-    
 
-h2{
-    text-transform: uppercase ;
-    
 }
+    
+   
+
 .social-media{
     margin-top: 1rem;
     display: flex;
