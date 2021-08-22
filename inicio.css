@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 body{
     margin: 0 auto;
     padding: 0;
     height: 100vh;
     background-image: linear-gradient(45deg, white);
+    font-family: 'Poppins', sans-serif;
 }
 
 .slider{
     max-width: 700px;
     border:10px solid darkslategray;
-    margin: 50px auto;
+    margin: 100px auto;
     overflow: hidden;
 }
 
@@ -36,7 +38,7 @@ body{
     left: 0px;
     text-align: center;
     color:darkolivegreen;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
